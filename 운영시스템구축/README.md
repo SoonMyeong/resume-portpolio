@@ -1,14 +1,12 @@
 # e-Navigation 연구과제 운영 시스템 구축
 ## 아키텍처
-![image](https://github.com/SoonMyeong/resume-portpolio/assets/31875043/636d1fbd-23d5-4fc0-8812-5880bcd44925)
+![image](https://github.com/SoonMyeong/resume-portpolio/assets/31875043/989a3c7a-3c3b-4d96-8500-b9c57d468241)
 
 
 ### 투입 인원
 - PM 1명, 개발자 1명, 인프라 엔지니어 1명
 ### 내용
 - 인프라 설계
-  - 인프라 엔지니어 : 인터넷 망, LTE 망, DMZ 망
-  - 개발자 : 내부 망
 - 기존 과제인 메시지 변환 서비스 외 서비스 중개 서버 인수 및 설치
   - 인증서 발급 서버의 경우 설치 진행
 - ELK Stack 으로 로그 통합 및 검색
