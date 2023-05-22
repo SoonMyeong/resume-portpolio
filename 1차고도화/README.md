@@ -19,5 +19,5 @@
 ### 세부 내용
 - 기존 Netty 만 사용 → Spring IoC/DI 기능 사용하기 위해 Spring Webflux 사용
 - RabbitMQ Connection Pool 만 사용 → Channel Pool 사용
-  - 물리 커넥션 99% 감소 (300~500 개 -> 2~3개)
+  - 물리 커넥션 99% 감소 (300 - 500 개 -> 2~3개)
 - API 추적을 위한 Slueth & zipkin 도입
