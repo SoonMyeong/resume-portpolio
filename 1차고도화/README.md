@@ -20,7 +20,9 @@
 - 2차, 3차 연구 과제에 신규 비즈니스 내용이 생길 경우 확장 용이
 
 ### 세부 내용
-- 기존 Netty 만 사용 → Spring IoC/DI 기능 사용하기 위해 Spring Webflux 사용
-- RabbitMQ Connection Pool 만 사용 → Channel Pool 사용
-  - 물리 커넥션 99% 감소 (300 - 500 개 -> 2~3개)
-- API 추적을 위한 Slueth & zipkin 도입
+- Spring IoC/DI 기능 사용   
+  - 기존 Netty 만 사용 -> Spring Webflux 사용
+- Channel Pool 사용 -> 물리 커넥션 99% 감소 (300 - 500 개 -> 2~3개)
+  - RabbitMQ Connection Pool 만 사용 → Channel Pool 사용 
+- Slueth & zipkin 도입
+  - API 추적을 pinpoint 처럼 한눈에 볼 수 있음   
