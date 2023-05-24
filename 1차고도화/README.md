@@ -21,7 +21,7 @@
 
 ### 세부 내용
 - Spring IoC/DI 기능 사용   
-  - 기존 Netty 만 사용 -> Spring Webflux 사용
+  - 기존 Netty 만 사용 -> SpringBoot 사용
 - Channel Pool 사용 -> 물리 커넥션 99% 감소 (300 - 500 개 -> 2~3개)
   - RabbitMQ Connection Pool 만 사용 → Channel Pool 사용 
 - Slueth & zipkin 도입
