@@ -1,13 +1,13 @@
-# e-Navigation 서비스 중개 서버 고도화 1차 연구 과제
+# e-Navigation 서비스 라우터 고도화 1차 연구 과제
 ## 아키텍처
-![image](https://github.com/SoonMyeong/resume-portpolio/assets/31875043/a2e95305-964a-483f-9e93-bab8a9c89e13)
+![image](https://github.com/SoonMyeong/resume-portpolio/assets/31875043/767c4404-87f6-4f04-9f33-6764aea6dc31)
 
 
 ### 투입 인원
 - PM 1명, 개발자 2명
 
 ### 배경
-- 서비스 중개서버 고도화를 통해 좀 더 많은 기능을 제공하고 분산 서비스를 운영하기 위함
+- 서비스 라우터 고도화를 통해 좀 더 많은 기능을 제공하고 분산 서비스를 운영하기 위함
 ### 내용
 - API Gateway, Eureka 도입 및 도메인 분리 설계
   - 서버 부하 분산 용이
@@ -21,8 +21,8 @@
 
 ### 세부 내용
 - Spring IoC/DI 기능 사용   
-  - 기존 Netty 만 사용 -> SpringBoot 사용
-- Channel Pool 사용 -> 물리 커넥션 99% 감소 (300 - 500 개 -> 2~3개)
+  - 기존 Netty Framework 만 사용 하는 형태 -> Spring Boot 사용
+- Channel Pool 사용 -> 물리 커넥션 99% 감소 (300 - 500 개 → 2~3개)
   - RabbitMQ Connection Pool 만 사용 → Channel Pool 사용 
 - Slueth & zipkin 도입
   - API 추적을 pinpoint 처럼 한눈에 볼 수 있음   
