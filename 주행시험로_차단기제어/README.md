@@ -1,11 +1,13 @@
-# 한국타이어 주행시험로 차단기 제어 프로그램 개발
+# 한국타이어 주행 시험로 장비 제어 프로그램 개발
 ## 아키텍처
-![KakaoTalk_20230516_182133437](https://github.com/SoonMyeong/resume-portpolio/assets/31875043/8a58bf6f-cac5-45c3-b929-693a8781227a)
+![image](https://github.com/SoonMyeong/resume-portpolio/assets/31875043/308d736c-348c-4ec7-a850-72a55a5489cd)
 
 ## 내용
-- 차단기 제어를 위해 Netty framework 를 이용, 예약 웹에서 요청하는 데이터를 처리하기 위한 SpringBoot 이용
+- 차단기, 전광판 제어를 위해 Netty framework 를 이용, 예약 웹에서 요청하는 데이터를 처리하기 위한 SpringBoot 이용
   - 제공된 RFID 카드를 소지 하고 있는 운전자는 허가 된 시간에 주행시험로를 이용할 수 있음
     - RFID 리더기 서버 통신 : TCP 통신
+  - 전광판에 트랙 사용 현황을 보여줌
+    - 전광판 통신 : TCP 통신 
   - 시험 주행로 예약 웹에서 관리자의 경우 주행시험로를 원격으로 제어할 수 있음
     - 예약 웹서비스 통신 : HTTP 통신 
 
