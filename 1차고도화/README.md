@@ -1,6 +1,7 @@
 # e-Navigation 서비스 라우터 고도화 1차 연구 과제
 ## 아키텍처
-![image](https://github.com/SoonMyeong/resume-portpolio/assets/31875043/767c4404-87f6-4f04-9f33-6764aea6dc31)
+![image](https://github.com/SoonMyeong/resume-portpolio/assets/31875043/16d8e374-4aea-48de-9e8c-1391a6788d1d)
+
 
 
 ### 투입 인원
