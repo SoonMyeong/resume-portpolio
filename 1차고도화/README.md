@@ -25,6 +25,6 @@
 - Spring IoC/DI 기능 사용   
   - 기존 Netty Framework 만 사용 하는 형태 -> Spring Boot 사용
 - Channel Pool 사용 -> 물리 커넥션 99% 감소 (300 - 500 개 → 2~3개)
-  - RabbitMQ Connection Pool 만 사용 → Channel Pool 사용 
+  - RabbitMQ Connection Pool 사용 → Channel Pool 사용 
 - Slueth & zipkin 도입
   - API 추적을 pinpoint 처럼 한눈에 볼 수 있음   
