@@ -12,7 +12,7 @@
 - ELK Stack 으로 로그 통합 및 검색
 - 같은 연구에 참여하는 타 업체들과 통합 테스트, 시연 및 트러블슈팅 진행
     - 통합 테스트 간 육상 서비스의 메시지 포맷 변경에 맞춰 변경 작업 (RTI DDS 포맷)
-    - 서비스 중개 서버의 RabbitMQ Connection Pool 이 없어서 OOM 발생 → Connection Pool 추가
+    - 서비스 라우터의 RabbitMQ Connection Pool 이 없어서 OOM 발생 → Connection Pool 추가
     - ES 디스크 사용률 이슈
       - 색인 데이터 보관 주기 (14일 -> 7일) 로 변경
  
