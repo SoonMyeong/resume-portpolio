@@ -1,6 +1,6 @@
 # 한국타이어 주행 시험로 장비 제어 프로그램 개발
 ## 아키텍처
-![image](https://github.com/SoonMyeong/resume-portpolio/assets/31875043/308d736c-348c-4ec7-a850-72a55a5489cd)
+![image](https://github.com/SoonMyeong/resume-portpolio/assets/31875043/7ee576fe-b5ba-4c81-b1fd-4ac5a318cae2)
 
 ## 내용
 - 차단기, 전광판 제어를 위해 Netty framework 를 이용, 예약 웹에서 요청하는 데이터를 처리하기 위한 SpringBoot 이용
