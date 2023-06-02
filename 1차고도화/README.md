@@ -11,14 +11,10 @@
 - 서비스 라우터 고도화를 통해 좀 더 많은 기능을 제공하고 분산 서비스를 운영하기 위함
 ### 내용
 - API Gateway, Eureka 도입 및 도메인 분리 설계
-- Spring IoC/DI 기능 사용   
-  - 기존 Netty Framework 만 사용 하는 형태 -> Spring Boot 사용
 - Channel Pool 사용 -> 물리 커넥션 99% 감소 (300 - 500 개 → 2~3개)
   - RabbitMQ Connection Pool 사용 → Channel Pool 사용 
 - Slueth & zipkin 도입
   - API 추적을 pinpoint 처럼 한눈에 볼 수 있음   
-- 서버 부하 분산 용이
-  - 현재 운영센터의 경우, 선박과 서비스 모두 해당 서버로 요청 및 응답을 보내고 있는 상태
 - scale out 에 유연
   - 유레카를 통해 로드밸런싱이 가능하므로 분리 된 각 서비스들을 여러 개로 구성
 - 협업 개발 시 전체 시스템 이해도 감소
