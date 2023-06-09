@@ -1,6 +1,6 @@
 # e-Navigation 연구과제 운영 시스템 구축
 ## 아키텍처
-![image](https://github.com/SoonMyeong/resume-portpolio/assets/31875043/302be4ef-259f-4689-9460-65a86b4b95d3)
+![image](https://github.com/SoonMyeong/resume-portpolio/assets/31875043/00d9fbca-0f50-4e18-852e-8cd515b41769)
 
 
 
